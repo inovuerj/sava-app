@@ -2,9 +2,9 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
+html {
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
     font-family: Nunito, sans-serif, 'Source Serif Pro', 'Times New Roman', serif;
     line-height: 35px;
     color: #253A44;
+    background-color: #f8fafc;
     font-size: .9rem;
     line-height: 1.6;
 }
@@ -46,12 +47,20 @@ h1 {
     margin-bottom: 8px;
 }
 
+/* ul {
+    padding: 0;
+} */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .subtitulo {
     color: #9ba961;
 }
 
 .texto {
-    background-color: #f8fafc;
     padding: 24px 0;
 }
 

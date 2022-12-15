@@ -10,7 +10,7 @@
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 16px 0;
-    padding-left: 0;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
 }
   
 .header a {
