@@ -3,15 +3,15 @@ import './Header.css';
 function Header() {
   return (
     <header>
-      <div class="header-top"></div>
+      <div className="header-top"></div>
 
-      <div class="header">
-        <div class="container-header">
-          <a href="/" class="logo">
+      <div className="header">
+        <div className="container-header">
+          <a href="/" className="logo">
             <img src="logo.gif" alt="SAVA3"></img>
           </a>
-          <div class="header-right">
-            <a class="active" href="#home">
+          <div className="header-right">
+            <a className="active" href="/login">
               Acessar
             </a>
             <a href="#contact">Cadastre-se</a>
