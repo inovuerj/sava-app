@@ -18,9 +18,7 @@ body {
 }
 
 button {
-    background-color: #4caf4f; 
-    border: none;
-    padding: 12px 32px;
+    padding: 10px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -28,7 +26,6 @@ button {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
- 
     background-color: white;
     color: #253a44;
     border: 2px solid #9ba961;

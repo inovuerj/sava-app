@@ -4,8 +4,6 @@ function Login() {
   return (
     <div className="texto">
       <div className="container">
-        <h1>Login</h1>
-
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <div className="login-box">
             <div className="login-box-header">
@@ -14,46 +12,48 @@ function Login() {
             <div className="login-box-body">
               <form method="POST" action="/login">
                 <div className="form-group">
-                  <label htmlFor="email" style={{ textAlign: 'right' }}>
-                    E-mail
-                  </label>
+                  <label htmlFor="email">E-mail</label>
                   <input
                     id="email"
                     type="email"
-                    className="form-control"
                     name="email"
+                    className="form-control"
                     autoComplete="email"
                     required
-                  ></input>
+                  />
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="password" style={{ textAlign: 'right' }}>
-                    Senha
-                  </label>
+                  <label htmlFor="password">Senha</label>
                   <input
                     id="password"
                     type="password"
-                    className="form-control"
                     name="password"
+                    className="form-control"
                     autoComplete="current-password"
                     required
-                  ></input>
+                  />
                 </div>
 
                 <div className="form-group">
-                  <button type="submit" style={{ padding: '10px 24px' }}>
-                    Entrar
-                  </button>
+                  <input
+                    id="remember"
+                    type="checkbox"
+                    name="remember"
+                    className="form-check-input"
+                  />
+                  <label htmlFor="remember" className="form-check-label">
+                    Manter conectado
+                  </label>
+                </div>
+
+                <div className="form-group" style={{ marginBottom: '0' }}>
+                  <button type="submit">Entrar</button>
                 </div>
               </form>
             </div>
           </div>
         </div>
-
-        <a href="/">
-          <button>Voltar</button>
-        </a>
       </div>
     </div>
   );

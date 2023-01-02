@@ -52,14 +52,8 @@
 }
 
 .header-right a {
-    padding: 12px;
-    margin-left: 10px;
-}
-
-.header-right a {
-    padding: 12px;
+    padding: 10px;
     margin-left: 12px;
-
     font-size: 16px;
     transition-duration: 0.4s;
     border: 2px solid #9ba961;
